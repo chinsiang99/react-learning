@@ -4,7 +4,7 @@ import WelcomeMessage from "./WelcomeMessage"
 const Header = () => {
   return (
     <div>
-        {/* <Greet/> */}
+        <Greet/>
         <WelcomeMessage/>
         <h1>Welcome to my Website</h1>
         <nav>

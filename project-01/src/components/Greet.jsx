@@ -1,6 +1,11 @@
 const Greet = () => {
+    const name = 'John'
+    const currentDate = new Date().toLocaleDateString()
     return (
-        <h1>Good day !</h1>
+        <div>
+            <h1>Good day {name} !</h1>
+            <p>Current Date: {currentDate}</p>
+        </div>
     )
 }
 
