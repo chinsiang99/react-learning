@@ -7,6 +7,7 @@ import Person from "./components/Person"
 import Product from "./components/Product"
 import ProductInfo from "./components/ProductInfo"
 import UserList from "./components/UserList"
+import Weather from "./components/Weather"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <UserList/>
       <Person name={"chin siang"} age={26}/>
       <Product name={"Mouse"} price={99}/>
+      <Weather temperature={13}/>
       <Footer/>
     </div>
   )
