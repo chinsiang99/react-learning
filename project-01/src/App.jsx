@@ -1,4 +1,5 @@
 import Footer from "./components/Footer"
+import Greeting from "./components/Greeting"
 import Header from "./components/Header"
 import JSXRules from "./components/JSXRules"
 import MainContent from "./components/MainContent"
@@ -23,6 +24,7 @@ const App = () => {
       <Product name={"Mouse"} price={99}/>
       <Weather temperature={13}/>
       <UserStatus loggedIn={true} isAdmin={false}/>
+      <Greeting timeOfDay={"morning"}/>
       <Footer/>
     </div>
   )
