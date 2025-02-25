@@ -13,6 +13,7 @@ const App = () => {
       <JSXRules/>
       <ProductInfo/>
       <NumbersList/>
+      <UserList/>
       <Footer/>
     </div>
   )
