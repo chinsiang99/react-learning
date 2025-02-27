@@ -1,6 +1,7 @@
 import Footer from "./components/Footer"
 import Greeting from "./components/Greeting"
 import Header from "./components/Header"
+import IconComponent from "./components/IconComponent"
 import JSXRules from "./components/JSXRules"
 import MainContent from "./components/MainContent"
 import NumbersList from "./components/NumbersList"
@@ -32,6 +33,7 @@ const App = () => {
       <FaShoppingCart />
       <StyleCard/>
       <ProfileCard/>
+      <IconComponent/>
     </div>
   )
 }
