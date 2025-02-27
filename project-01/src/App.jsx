@@ -9,6 +9,7 @@ import NumbersList from "./components/NumbersList"
 import Person from "./components/Person"
 import Product from "./components/Product"
 import ProductInfo from "./components/ProductInfo"
+import Profile from "./components/Profile"
 import ProfileCard from "./components/ProfileCard"
 import StyleCard from "./components/StyleCard"
 import TodoList from "./components/TodoList"
@@ -38,6 +39,7 @@ const App = () => {
       <IconComponent/>
       <Counter/>
       <TodoList/>
+      <Profile/>
     </div>
   )
 }
