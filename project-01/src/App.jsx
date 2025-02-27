@@ -1,3 +1,4 @@
+import Counter from "./components/Counter"
 import Footer from "./components/Footer"
 import Greeting from "./components/Greeting"
 import Header from "./components/Header"
@@ -34,6 +35,7 @@ const App = () => {
       <StyleCard/>
       <ProfileCard/>
       <IconComponent/>
+      <Counter/>
     </div>
   )
 }
