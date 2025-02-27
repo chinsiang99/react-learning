@@ -7,9 +7,11 @@ import NumbersList from "./components/NumbersList"
 import Person from "./components/Person"
 import Product from "./components/Product"
 import ProductInfo from "./components/ProductInfo"
+import StyleCard from "./components/StyleCard"
 import UserList from "./components/UserList"
 import UserStatus from "./components/UserStatus"
 import Weather from "./components/Weather"
+import { FaShoppingCart } from "react-icons/fa";
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
       <UserStatus loggedIn={true} isAdmin={false}/>
       <Greeting timeOfDay={"morning"}/>
       <Footer/>
+      <FaShoppingCart />
+      <StyleCard/>
     </div>
   )
 }
