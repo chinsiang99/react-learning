@@ -11,6 +11,7 @@ import Product from "./components/Product"
 import ProductInfo from "./components/ProductInfo"
 import ProfileCard from "./components/ProfileCard"
 import StyleCard from "./components/StyleCard"
+import TodoList from "./components/TodoList"
 import UserList from "./components/UserList"
 import UserStatus from "./components/UserStatus"
 import Weather from "./components/Weather"
@@ -36,6 +37,7 @@ const App = () => {
       <ProfileCard/>
       <IconComponent/>
       <Counter/>
+      <TodoList/>
     </div>
   )
 }
