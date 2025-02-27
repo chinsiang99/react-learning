@@ -7,6 +7,7 @@ import NumbersList from "./components/NumbersList"
 import Person from "./components/Person"
 import Product from "./components/Product"
 import ProductInfo from "./components/ProductInfo"
+import ProfileCard from "./components/ProfileCard"
 import StyleCard from "./components/StyleCard"
 import UserList from "./components/UserList"
 import UserStatus from "./components/UserStatus"
@@ -30,6 +31,7 @@ const App = () => {
       <Footer/>
       <FaShoppingCart />
       <StyleCard/>
+      <ProfileCard/>
     </div>
   )
 }
