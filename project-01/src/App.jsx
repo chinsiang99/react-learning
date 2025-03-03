@@ -21,6 +21,7 @@ import UserList from "./components/UserList"
 import UserStatus from "./components/UserStatus"
 import Weather from "./components/Weather"
 import { FaShoppingCart } from "react-icons/fa";
+import BasicEffect from "./components/BasicEffect"
 
 const App = () => {
   const [value, setValue] = useState(0)
@@ -67,6 +68,7 @@ const App = () => {
       <ShoppingList/>
       <CopyInput/>
       <Switcher/>
+      <BasicEffect/>
     </div>
   )
 }
