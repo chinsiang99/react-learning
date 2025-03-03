@@ -1,3 +1,4 @@
+import CopyInput from "./components/CopyInput"
 import Counter from "./components/Counter"
 import Footer from "./components/Footer"
 import Greeting from "./components/Greeting"
@@ -42,6 +43,7 @@ const App = () => {
       <TodoList/>
       <Profile/>
       <ShoppingList/>
+      <CopyInput/>
     </div>
   )
 }
