@@ -17,4 +17,7 @@ useState() Hook allows us to **track state** in a functional component. State ge
 # What is Portal
 - Portal is a feature that allows you to render a child component into a DOM node that exist outside the hierarchy of the parent component. This can be useful for scenarios like modals, tooltips, or dropdowns, where you want to break out of the usual parent-child structure and render in a different part of the DOM
 
+# What is useEffect
+- useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM etc
+
 2:17:31 => video length
