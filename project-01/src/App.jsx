@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react"
 import CopyInput from "./components/CopyInput"
 import Counter from "./components/Counter"
 import Footer from "./components/Footer"
@@ -22,8 +23,28 @@ import Weather from "./components/Weather"
 import { FaShoppingCart } from "react-icons/fa";
 
 const App = () => {
+  const [value, setValue] = useState(0)
+  
+  useEffect(()=>{
+    console.log("caling useEffect")
+    document.title = `Increment ${value}`
+  })
+  
+  // // render only once
+  // useEffect(()=>{
+  //   console.log("caling useEffect")
+  //   document.title = `Increment ${value}`
+  // }, [])
+  
+  // // render everytime value is being changed
+  // useEffect(()=>{
+  //   console.log("caling useEffect")
+  //   document.title = `Increment ${value}`
+  // }, [value])
   return (
     <div>
+      <h2>{value}</h2>
+      <button onClick={()=>setValue(value + 1)}>Click Me</button>
       <Header/>
       <MainContent/>
       <JSXRules/>
