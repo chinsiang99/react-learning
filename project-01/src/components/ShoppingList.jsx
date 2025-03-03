@@ -16,7 +16,8 @@ const ShoppingList = () => {
         }
     }
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault()
         setShoppingList([...shoppingList, {name, quantity}])
         setName("")
         setQuantity(0)
