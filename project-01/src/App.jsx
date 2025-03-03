@@ -22,6 +22,7 @@ import UserStatus from "./components/UserStatus"
 import Weather from "./components/Weather"
 import { FaShoppingCart } from "react-icons/fa";
 import BasicEffect from "./components/BasicEffect"
+import CounterEffect from "./components/CounterEffect"
 
 const App = () => {
   const [value, setValue] = useState(0)
@@ -69,6 +70,7 @@ const App = () => {
       <CopyInput/>
       <Switcher/>
       <BasicEffect/>
+      <CounterEffect/>
     </div>
   )
 }
