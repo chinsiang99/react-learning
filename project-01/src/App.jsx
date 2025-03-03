@@ -14,6 +14,7 @@ import Profile from "./components/Profile"
 import ProfileCard from "./components/ProfileCard"
 import ShoppingList from "./components/ShoppingList"
 import StyleCard from "./components/StyleCard"
+import Switcher from "./components/Switcher"
 import TodoList from "./components/TodoList"
 import UserList from "./components/UserList"
 import UserStatus from "./components/UserStatus"
@@ -44,6 +45,7 @@ const App = () => {
       <Profile/>
       <ShoppingList/>
       <CopyInput/>
+      <Switcher/>
     </div>
   )
 }
