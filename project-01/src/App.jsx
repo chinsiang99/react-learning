@@ -24,9 +24,9 @@ import { FaShoppingCart } from "react-icons/fa";
 import BasicEffect from "./components/BasicEffect"
 import CounterEffect from "./components/CounterEffect"
 import FetchDataEffect from "./components/FetchDataEffect"
-
-export const Data = createContext()
-
+import UserProfile from "./components/UserProfile"
+import { UserProvider } from "./contexts/UserContext.jsx"
+import UpdateUser from "./components/UpdateUser.jsx"
 const App = () => {
   const [value, setValue] = useState(0)
   
@@ -75,9 +75,10 @@ const App = () => {
       <BasicEffect/>
       <CounterEffect/>
       <FetchDataEffect/>
-      <Data.Provider value = {name}>
-    
-      </Data.Provider>
+      <UserProvider>
+        <UserProfile/>
+        <UpdateUser/>
+      </UserProvider>
     </div>
   )
 }
