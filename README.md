@@ -23,4 +23,7 @@ useState() Hook allows us to **track state** in a functional component. State ge
 # What is Context API
 - Context API is a feature that allows you to **manage and share state** across your component tree without having to pass props down manually at every level. It's useful for scenarios where you need to share data or functions acrosss many components, especially when these components are deeply nested
 
+# What is useContext
+- useContext Hook allows us to access the context values provided by a Context object directly within a functional component. Context provides a way to pass data through the component tree without having to pass props down manually at every level
+
 3:00:26 => video length

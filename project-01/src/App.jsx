@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { createContext, useEffect, useState } from "react"
 import CopyInput from "./components/CopyInput"
 import Counter from "./components/Counter"
 import Footer from "./components/Footer"
@@ -24,6 +24,8 @@ import { FaShoppingCart } from "react-icons/fa";
 import BasicEffect from "./components/BasicEffect"
 import CounterEffect from "./components/CounterEffect"
 import FetchDataEffect from "./components/FetchDataEffect"
+
+export const Data = createContext()
 
 const App = () => {
   const [value, setValue] = useState(0)
@@ -73,6 +75,9 @@ const App = () => {
       <BasicEffect/>
       <CounterEffect/>
       <FetchDataEffect/>
+      <Data.Provider value = {name}>
+    
+      </Data.Provider>
     </div>
   )
 }
