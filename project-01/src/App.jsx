@@ -23,6 +23,7 @@ import Weather from "./components/Weather"
 import { FaShoppingCart } from "react-icons/fa";
 import BasicEffect from "./components/BasicEffect"
 import CounterEffect from "./components/CounterEffect"
+import FetchDataEffect from "./components/FetchDataEffect"
 
 const App = () => {
   const [value, setValue] = useState(0)
@@ -71,6 +72,7 @@ const App = () => {
       <Switcher/>
       <BasicEffect/>
       <CounterEffect/>
+      <FetchDataEffect/>
     </div>
   )
 }
